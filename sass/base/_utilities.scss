@@ -32,6 +32,10 @@
 
 .u-margin-top-medium {
   margin-top: 4rem !important;
+
+  @include respond(tab-land) {
+    margin-bottom: 3rem !important;
+  }
 }
 
 .u-margin-top-small {
